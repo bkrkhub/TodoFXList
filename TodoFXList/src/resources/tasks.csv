@@ -3,11 +3,11 @@ ID;ShortDescription;Details;DeadLine;Category;DaysOfWeek;Status
 2;python;Practice Python;2024-06-08;InProgress;null;0
 3;Meeting;Team Meeting;2024-12-25;InProgress;null;1
 4;Ruby;Learn Ruby;2024-12-18;Important;null;1
-5;Test;umarım çalışır abi.;2024-12-19;Important;null;1
+5;;Cont Test1 to Pending;Test For CONT1 TO PENDING;2024-12-21;Pending;null;1
 6;Test2;test2;2024-12-19;Important;null;1
 7;Test3;test3;2024-12-19;Important;null;1
 8;Test4;test4;2024-12-19;Important;null;1
-9;patates hasadı;2025 sonbahar;2025-09-01;Important;;1
+9;New TASK2;NEW TASK2 FOR TESTING;null;Continuous;Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;0
 10;Test For Pending;Pending test case;2024-12-26;Pending;null;1
 11;Test For Completed 2;Completed test;2024-06-12;Completed;null;0
 12;123123;Completed test test 2;2024-12-14;Completed;;1
@@ -15,7 +15,7 @@ ID;ShortDescription;Details;DeadLine;Category;DaysOfWeek;Status
 14;Test For Completed 4;Completed test;2024-06-07;Completed;null;1
 15;Deneme;bu bir denemedir;2024-12-21;Important;;0
 16;62;test1;null;Continuous;Monday,Wednesday,Friday;0
-17;Diyet;Her gün düzenli olarak dişlerini fırçalaman lazım.;null;Continuous;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;1
+17;Norm Test2;Test for Normal adding tasks.;2024-12-21;Important;null;0
 18;java;Learn Java;2024-06-07;Important;null;1
 19;java;Learn Java;2024-06-07;Important;null;1
 20;java;Learn Java;2024-06-07;Important;null;1
@@ -43,8 +43,3 @@ ID;ShortDescription;Details;DeadLine;Category;DaysOfWeek;Status
 42;java;Learn Java;2024-06-07;Important;null;1
 43;java;Learn Java;2024-06-07;Important;null;1
 44;java;Learn Java;2024-06-07;Important;null;1
-45;Cont Test1 to Pending;Test For CONT1 TO PENDING;2024-12-21;Pending;;1
-46;Norm Test2;Test for Normal adding tasks.;2024-12-21;Important;null;0
-47;New TASK2;NEW TASK2 FOR TESTING;null;Continuous;Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;0
-48;araba satılacak;yerine opel vectra 2.0 motor 140 beygir alınacak;2024-12-31;Important;;1
-49;test213123;test123123123;2024-12-31;InProgress;;1
