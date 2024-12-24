@@ -38,7 +38,7 @@ TodoFXList is a desktop application developed using JavaFX. This application all
 
 ## 📝 License
 
--This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
 
 
 
