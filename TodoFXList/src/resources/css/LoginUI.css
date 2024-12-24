@@ -1,0 +1,39 @@
+/* LoginUI.css */
+.text-field, .password-field {
+    -fx-background-color: transparent;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 0 0 2 0;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-prompt-text-fill: #ffffff;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #68a5ea;
+}
+
+.button {
+    -fx-background-color: #19cf61;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #199ecf;
+}
+
+.exitButton {
+    -fx-background: red;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 50;
+    -fx-padding: 5;
+    -fx-cursor: hand;
+}
+
+.exitButton:hover {
+    -fx-background-color: darkred;
+}

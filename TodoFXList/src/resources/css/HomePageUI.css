@@ -1,0 +1,321 @@
+/* Root */
+.root {
+    -fx-background-color: #FFFFFF;
+}
+
+/* left menu style */
+.left-menu {
+    -fx-background-color: linear-gradient(to bottom, #EDEDED, #C7CEFF);
+    -fx-padding: 10px;
+    -fx-spacing: 15px;
+}
+
+/* menu items */
+.menu-item {
+    -fx-padding: 20px 10px;
+    -fx-spacing: 30px;
+    -fx-alignment: center-left;
+    -fx-background-color: transparent;
+    -fx-text-fill: #333333;
+    -fx-font-size: 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* menu item's hover effect */
+.menu-item:hover {
+    -fx-background-color: #AED6F1;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* focused item */
+.menu-item:focused {
+    -fx-background-color: #5DADE2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+/* selected menu item */
+.menu-item-selected {
+    -fx-background-color: #5DADE2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+.control-bar {
+    -fx-background-color: linear-gradient(to bottom, #EDEDED, #C7CEFF);
+    -fx-padding: 30px 30px;
+    -fx-min-height: 75px;
+     -fx-spacing: 65px;
+    -fx-pref-height: 57px;
+    -fx-alignment: top-left;
+}
+
+.close-button, .minimize-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-min-width: 16px; /* Min Width */
+    -fx-min-height: 16px; /* Min Height */
+    -fx-pref-width: 16px; /* Preferred Width */
+    -fx-pref-height: 16px; /* Preferred Height */
+    -fx-background-radius: 50%;
+}
+
+.close-button:hover {
+    -fx-background-color: #fafafa;
+    -fx-background-radius: 50%;
+}
+
+.minimize-button:hover {
+    -fx-background-color: #fafafa;
+    -fx-background-radius: 50%;
+}
+
+/* TableView Layout */
+.table-view {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: #E6E6E6;
+    -fx-border-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F9F9F9;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #FFFFFF;
+}
+
+.add-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 5px;
+    -fx-background-radius: 25%;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+    -fx-min-width: 55px;
+    -fx-min-height: 55px;
+}
+
+.add-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.new-task-dialog {
+    -fx-padding: 20px;
+    -fx-background-color: #F9F9F9;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-family: "Arial";
+}
+
+.new-task-dialog .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.new-task-dialog .button {
+    -fx-background-color: #5DADE2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+.new-task-dialog .button:hover {
+    -fx-background-color: #3498DB;
+}
+
+/* Task Card Styling */
+.task-card {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-font-family: "Arial";
+    -fx-pref-width: 250px; /* Compact width for 3 tasks per row */
+    -fx-pref-height: 120px; /* Adjusted height */
+}
+
+/* Hover effect for task card */
+.task-card:hover {
+    -fx-background-color: #ffe7d1;
+    -fx-border-color: #B0B0B0;
+}
+
+/* Title styling for task card */
+.task-card .title {
+    -fx-font-size: 24px !important; /* Adjusted font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: #fc0591;
+    -fx-padding-bottom: 10px; /* Space below title */
+}
+
+/* Separator line below title */
+.task-card .separator {
+    -fx-background-color: #FF5722;
+    -fx-pref-height: 2px;
+    -fx-pref-width: 100%;
+    -fx-padding: 10px 0; /* Add spacing above and below the line */
+}
+
+/* Subtext styling for task card */
+.task-card .subtext {
+    -fx-font-size: 14px !important; /* Consistent size */
+    -fx-text-fill: #fc0591;
+    -fx-padding: 10px 0 0 0 !important; /* Increased spacing below the separator */
+}
+
+/* Task Item Styling */
+.task-item {
+    -fx-background-color: #F9F9F9;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-font-family: "Arial";
+    -fx-pref-width: 100%; /* Full width of the container */
+}
+
+.task-item:hover {
+    -fx-background-color: #E6F7FF;
+    -fx-border-color: #B0E0E6;
+}
+
+/* Form Labels */
+.grid-pane .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Text Fields and Text Areas */
+.grid-pane .text-field, .grid-pane .text-area, .grid-pane .combo-box {
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Buttons */
+.grid-pane .button {
+    -fx-background-color: #5DADE2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+.grid-pane .button:hover {
+    -fx-background-color: #3498DB;
+}
+
+/* OK Button Styling */
+.button-ok {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-ok:hover {
+    -fx-background-color: #45A049; /* Darker green hover effect */
+}
+
+/* Cancel Button Styling */
+.button-cancel {
+    -fx-background-color: #F44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-cancel:hover {
+    -fx-background-color: #D32F2F; /* Darker red hover effect */
+}
+
+.scroll-pane {
+    -fx-background: #FFFFFF;
+    -fx-padding: 10;
+}
+
+.scroll-pane .viewport {
+    -fx-background: #F9F9F9;
+}
+
+.context-menu {
+    -fx-font-size: 16px; /* Smaller text size */
+    -fx-background-color: #F9F9F9; /* Light background */
+    -fx-padding: 2px; /* Minimized internal spacing */
+}
+
+.context-menu .menu-item {
+    -fx-padding: 2px 10px; /* Reduce padding around each menu item */
+    -fx-font-size: 16px; /* Set menu item font size */
+    -fx-text-fill: #333333; /* Consistent text color */
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: #fcbf23; /* Add a hover effect */
+}
+
+.dialog-review {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.button-close {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+.button-close:hover {
+    -fx-background-color: #D32F2F; /* Red on hover */
+}
+
+/* Update Button */
+.update-button {
+    -fx-background-color: #FF9800 !important;
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold !important;
+    -fx-background-radius: 5px !important;
+    -fx-padding: 10 20 !important; /* Internal space */
+    -fx-margin: 5px; /* External space */
+}
+.update-button:hover {
+    -fx-background-color: #FFA726 !important;
+}
+
+/* Cancel button */
+.cancel-button {
+    -fx-background-color: #F44336 !important;
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold !important;
+    -fx-background-radius: 5px !important;
+    -fx-padding: 10 20 !important; /* Internal space */
+    -fx-margin: 5px; /* External space */
+}
+.cancel-button:hover {
+    -fx-background-color: #E57373 !important;
+}
+
+/* Alignment of buttons in HBox */
+.button-box {
+    -fx-spacing: 10px; /* Space between buttons */
+    -fx-alignment: bottom-right; /* Bottom right alignment */
+}
